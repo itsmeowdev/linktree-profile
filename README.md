@@ -1,5 +1,6 @@
 # Linktree Profile - Personal Portfolio
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ce86952f-cb0f-4a0c-8447-dec5f526b709/deploy-status)](https://app.netlify.com/projects/devwithmeow-profile/deploys)
 ![Preview](assets/preview-large.webp)
 
 A simple, clean, and modern Linktree-style profile page built with vanilla HTML, CSS, and JavaScript. Featuring a sleek glassmorphism design and smooth staggered animations.
