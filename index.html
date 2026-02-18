@@ -9,6 +9,11 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <link rel="stylesheet" href="css/styles.css" />
     <title>ItsMeow - Profile</title>
   </head>
@@ -20,26 +25,31 @@
           <img
             class="personal-profile"
             src="assets/profile.jpeg"
-            alt="profile"
+            alt="Foto Profil ItsMeow"
+            loading="lazy"
           />
         </div>
         <div class="personal-container">
           <h1 class="name">ItsMeow</h1>
-          <p>Tech Enthusiast | Linux Enthusiast</p>
+          <p class="bio">
+            <span class="highlight">Tech</span> Enthusiast |
+            <span class="highlight">Linux</span> Enthusiast
+          </p>
         </div>
       </header>
 
-      <!-- BUTTON LIST -->
+      <!-- SOCIAL MEDIA LIST -->
       <nav class="button-container">
-        <ul style="list-style: none; padding: 0">
+        <ul>
           <li>
             <a
-              class="btn github"
+              class="btn paw"
               target="_blank"
               rel="noopener noreferrer"
               href="https://github.com/itsmeowdev"
-              >Pawww 🐾</a
             >
+              <i class="fa-solid fa-paw"></i> <span>Pawww</span>
+            </a>
           </li>
           <li>
             <a
@@ -47,8 +57,9 @@
               target="_blank"
               rel="noopener noreferrer"
               href="https://github.com/itsmeowdev"
-              >GitHub</a
             >
+              <i class="fa-brands fa-github"></i> <span>GitHub</span>
+            </a>
           </li>
           <li>
             <a
@@ -56,8 +67,8 @@
               target="_blank"
               rel="noopener noreferrer"
               href="https://youtube.com/devwithmeow"
-              >YouTube</a
-            >
+              ><i class="fa-brands fa-youtube"></i> <span>YouTube</span>
+            </a>
           </li>
           <li>
             <a
@@ -65,16 +76,17 @@
               target="_blank"
               rel="noopener noreferrer"
               href="https://instagram.com/devwithmeow"
-              >Instagram</a
-            >
+              ><i class="fa-brands fa-instagram"></i> <span>Instagram</span>
+            </a>
           </li>
         </ul>
       </nav>
 
       <!-- FOOTER -->
       <footer>
-        <p>&copy; 2026 ItsMeow. All rights reserved.</p>
+        <p>&copy; <span id="year">2026</span> ItsMeow. All rights reserved.</p>
       </footer>
     </main>
+    <script src="js/script.js"></script>
   </body>
 </html>
