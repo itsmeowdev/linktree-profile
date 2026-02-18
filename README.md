@@ -1,6 +1,6 @@
 # Linktree Profile - Personal Portfolio
 
-![Preview](assets/preview.png)
+![Preview](assets/preview-large.webp)
 
 A simple, clean, and modern Linktree-style profile page built with vanilla HTML, CSS, and JavaScript. Featuring a sleek glassmorphism design and smooth staggered animations.
 
